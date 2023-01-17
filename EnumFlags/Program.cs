@@ -1,5 +1,7 @@
-﻿namespace EnumFlags
+﻿
+namespace EnumFlags
 {
+
     internal class Program
     {
         static void Main(string[] args)

@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\PrivProtLibrary1.csproj" />
-  </ItemGroup>
-
 </Project>

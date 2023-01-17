@@ -5,11 +5,19 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProFast", "ProFast\ProFast.csproj", "{C46E6310-8D09-4260-8FAE-DB706E2FE8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFlags", "EnumFlags\EnumFlags.csproj", "{DBFC1ECD-1D99-48C1-95AA-2068807EDF43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumFlags", "EnumFlags\EnumFlags.csproj", "{DBFC1ECD-1D99-48C1-95AA-2068807EDF43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingForProprites", "OverloadingForProprites\OverloadingForProprites.csproj", "{5A912F9F-210C-429E-882E-D7C559E195D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverloadingForProprites", "OverloadingForProprites\OverloadingForProprites.csproj", "{5A912F9F-210C-429E-882E-D7C559E195D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomList", "CustomList\CustomList.csproj", "{0DDA0A3E-6A53-4FDF-AFBC-3AF61B53FD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomList", "CustomList\CustomList.csproj", "{0DDA0A3E-6A53-4FDF-AFBC-3AF61B53FD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{12B571CF-276D-4C8C-A523-28DAD1C7E654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivProtLibrary1", "ClassLibrary1\PrivProtLibrary1.csproj", "{BF849B63-5B96-4501-81CE-138C8DA1CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivProt", "PrivProt\PrivProt.csproj", "{78FD1836-D172-4228-9626-D587EB2F649A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVirtuolAbs", "TestVirtuolAbs\TestVirtuolAbs.csproj", "{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +41,26 @@ Global
 		{0DDA0A3E-6A53-4FDF-AFBC-3AF61B53FD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DDA0A3E-6A53-4FDF-AFBC-3AF61B53FD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DDA0A3E-6A53-4FDF-AFBC-3AF61B53FD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF849B63-5B96-4501-81CE-138C8DA1CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF849B63-5B96-4501-81CE-138C8DA1CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF849B63-5B96-4501-81CE-138C8DA1CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF849B63-5B96-4501-81CE-138C8DA1CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FD1836-D172-4228-9626-D587EB2F649A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FD1836-D172-4228-9626-D587EB2F649A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FD1836-D172-4228-9626-D587EB2F649A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FD1836-D172-4228-9626-D587EB2F649A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF849B63-5B96-4501-81CE-138C8DA1CB90} = {12B571CF-276D-4C8C-A523-28DAD1C7E654}
+		{78FD1836-D172-4228-9626-D587EB2F649A} = {12B571CF-276D-4C8C-A523-28DAD1C7E654}
+		{D1FE0E48-3AF5-460F-A9EA-BD3908F0BDE2} = {12B571CF-276D-4C8C-A523-28DAD1C7E654}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E20B3FB2-D30B-4BC6-8AFE-1566571F84DA}
